@@ -3,8 +3,7 @@ package version5;
 public class MiniDuckSimulator {
 
     public static void main(String[] args) {
-        MallardDuck mallard;
-        mallard = new MallardDuck(new FlyNoWay(), new MuteQuack());
+        MallardDuck mallard = new MallardDuck(new FlyNoWay(), new MuteQuack());
         mallard.display();
         mallard.swim();
         mallard.performFly();

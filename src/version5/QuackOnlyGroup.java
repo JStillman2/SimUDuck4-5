@@ -10,7 +10,7 @@ package version5;
  *
  * @author jstillman2
  */
-public interface QuackOnlyGroup {
+public interface QuackOnlyGroup extends Duck{
     
         public abstract void performQuack();
     

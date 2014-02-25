@@ -10,7 +10,7 @@ package version5;
  *
  * @author jstillman2
  */
-public interface FlyOnlyGroup {
+public interface FlyOnlyGroup extends Duck{
     public abstract void performFly();
     
 }
